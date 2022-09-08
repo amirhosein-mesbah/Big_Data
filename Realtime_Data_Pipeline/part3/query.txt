@@ -1,0 +1,14 @@
+GET news/_search
+    {
+  "query": {
+    "query_string": {
+      "fields": [
+        "text"
+      ],
+      "query": "*\"اتریوم\"*"
+    }
+  }
+}
+
+
+
