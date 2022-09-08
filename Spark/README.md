@@ -13,3 +13,9 @@ results of training a mlp model on the proposed dataset are shown in the table b
 | Model      | Test Accuracy | Test Recall | Test Precision |
 | ----------- | ----------- | ----------- | ----------- |
 | MLP      | 96,01%       | 96,01%        | 92,19%       |
+
+
+## Spark for NLP
+In this task I've downloaded `Les Misérables` book and created a `spark dataframe` with sentences of book. After that I've created `bigram` and `trigram` of prepared dataframe and compute count of each bigram and trigram.
+for the last part, I implemented a logistic regression to see if there is any relationship between length of words in bigram or trigram.
+
